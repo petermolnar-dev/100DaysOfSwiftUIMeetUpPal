@@ -11,6 +11,11 @@
 		C717CA3428BCE882006D4DAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717CA3328BCE882006D4DAF /* ContentView.swift */; };
 		C717CA3628BCE884006D4DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C717CA3528BCE884006D4DAF /* Assets.xcassets */; };
 		C717CA3928BCE884006D4DAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C717CA3828BCE884006D4DAF /* Preview Assets.xcassets */; };
+		C717CA7128C2530F006D4DAF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C717CA7028C2530F006D4DAF /* ImagePicker.swift */; };
+		C735547D2B02374800EC4104 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C735547C2B02374800EC4104 /* FileManager-DocumentsDirectory.swift */; };
+		C76D8E3E2A2DD6E100A2E74B /* AddNewPalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D8E3D2A2DD6E100A2E74B /* AddNewPalView.swift */; };
+		C78FA61829DB36F300BCBD2E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FA61729DB36F300BCBD2E /* DataController.swift */; };
+		C78FA61B29DB370900BCBD2E /* MeetUpPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C78FA61929DB370900BCBD2E /* MeetUpPal.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C717CA3328BCE882006D4DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C717CA3528BCE884006D4DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C717CA3828BCE884006D4DAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C717CA7028C2530F006D4DAF /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C735547C2B02374800EC4104 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		C76D8E3D2A2DD6E100A2E74B /* AddNewPalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPalView.swift; sourceTree = "<group>"; };
+		C78FA61729DB36F300BCBD2E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C78FA61A29DB370900BCBD2E /* MeetUpPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetUpPal.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		C717CA2528BCE882006D4DAF = {
 			isa = PBXGroup;
 			children = (
+				C78FA61929DB370900BCBD2E /* MeetUpPal.xcdatamodeld */,
 				C717CA3028BCE882006D4DAF /* MeetUpPal */,
 				C717CA2F28BCE882006D4DAF /* Products */,
 			);
@@ -51,8 +62,12 @@
 		C717CA3028BCE882006D4DAF /* MeetUpPal */ = {
 			isa = PBXGroup;
 			children = (
+				C735547C2B02374800EC4104 /* FileManager-DocumentsDirectory.swift */,
+				C717CA7028C2530F006D4DAF /* ImagePicker.swift */,
 				C717CA3128BCE882006D4DAF /* MeetUpPalApp.swift */,
 				C717CA3328BCE882006D4DAF /* ContentView.swift */,
+				C76D8E3D2A2DD6E100A2E74B /* AddNewPalView.swift */,
+				C78FA61729DB36F300BCBD2E /* DataController.swift */,
 				C717CA3528BCE884006D4DAF /* Assets.xcassets */,
 				C717CA3728BCE884006D4DAF /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C717CA7128C2530F006D4DAF /* ImagePicker.swift in Sources */,
+				C735547D2B02374800EC4104 /* FileManager-DocumentsDirectory.swift in Sources */,
+				C78FA61829DB36F300BCBD2E /* DataController.swift in Sources */,
 				C717CA3428BCE882006D4DAF /* ContentView.swift in Sources */,
+				C78FA61B29DB370900BCBD2E /* MeetUpPal.xcdatamodeld in Sources */,
 				C717CA3228BCE882006D4DAF /* MeetUpPalApp.swift in Sources */,
+				C76D8E3E2A2DD6E100A2E74B /* AddNewPalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +359,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C78FA61929DB370900BCBD2E /* MeetUpPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C78FA61A29DB370900BCBD2E /* MeetUpPal.xcdatamodel */,
+			);
+			currentVersion = C78FA61A29DB370900BCBD2E /* MeetUpPal.xcdatamodel */;
+			path = MeetUpPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C717CA2628BCE882006D4DAF /* Project object */;
 }
